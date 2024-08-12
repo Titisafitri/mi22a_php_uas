@@ -41,7 +41,7 @@ if (isset($_POST['simpan'])) {
     $nama        = $_POST['nama'];
     $kategori    = $_POST['kategori'];
     $deskripsi   = $_POST['deskripsi'];
-    $gambar      = $_POST['gambar'];
+   
 
 
     if ($nama && $kategori && $deskripsi) {
